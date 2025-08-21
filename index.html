@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Image Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/tab.png">
+</head>
+<body>
+    <div class="slider-container" id="sliderContainer">
+        <div class="preloader" id="preloader">
+            <div class="spinner"></div>
+        </div>
+
+        <div class="slider" id="slider">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Nature" class="slide-image" loading="lazy">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Explore Nature</h2>
+                    <p class="slide-description">Discover the breathtaking beauty of untouched landscapes and majestic mountains.</p>
+                    <a href="#" class="slide-btn">Explore Now</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df" alt="City" class="slide-image" loading="lazy">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Future Awaits</h2>
+                    <p class="slide-description">Experience the vibrant energy and architecture of modern cities around the world.</p>
+                    <a href="#" class="slide-btn">Discover More</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe" alt="Abstract" class="slide-image" loading="lazy">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Minimal Design</h2>
+                    <p class="slide-description">Immerse yourself in the beauty of simplicity with our minimalist design philosophy.</p>
+                    <a href="#" class="slide-btn">View Collection</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2" alt="Workspace" class="slide-image" loading="lazy">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Productive Spaces</h2>
+                    <p class="slide-description">Create your perfect workspace with our ergonomic and stylish office solutions.</p>
+                    <a href="#" class="slide-btn">Get Inspired</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach" class="slide-image" loading="lazy">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Escape Paradise</h2>
+                    <p class="slide-description">Find your perfect getaway with our exclusive travel destinations and experiences.</p>
+                    <a href="#" class="slide-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+        <button class="nav-btn prev-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+        <button class="nav-btn next-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+        
+        <div class="dots" id="dots"></div>
+        <div class="progress-bar" id="progressBar"></div>
+        
+        <button class="fullscreen-btn" id="fullscreenBtn">
+            <i class="fas fa-expand"></i>
+        </button>
+        
+        <div class="slide-counter" id="slideCounter">1 / 5</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
