@@ -1,33 +1,41 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1efc65eb-9d1c-42ab-8c7d-05bd639ef24a/deploy-status)](https://app.netlify.com/projects/fluxslider/deploys)
 <div align="center">
-  <img src="assets/logo.png" alt="Glimpse Slider Logo" width="120">
-  <h1>Glimpse Slider: A Neon Image Carousel</h1>
+  <img src="assets/FluxSlider.png" alt="FluxSlider Logo" width="180">
+  <h1>FluxSlider: A Neon Image Carousel</h1>
   <p>A beautiful, feature-rich, and fully responsive image slider with a stunning glassmorphism UI, neon accents, and advanced features, built with pure HTML, CSS, and JavaScript.</p>
   
   <p>
     <img src="https://img.shields.io/badge/Version-1.0-blue" alt="Version">
-    <img src="https://img.shields.io/github/license/[YOUR-USERNAME]/[YOUR-REPONAME]" alt="License">
-    <img src="https://img.shields.io/github/repo-size/[YOUR-USERNAME]/[YOUR-REPONAME]" alt="Repo Size">
-    <img src="https://img.shields.io/github/last-commit/[YOUR-USERNAME]/[YOUR-REPONAME]" alt="Last Commit">
-    <a href="https://github.com/[YOUR-USERNAME]/[YOUR-REPONAME]/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+    <img src="https://img.shields.io/github/license/fritzkmanurung/FluxSlider" alt="License">
+    <img src="https://img.shields.io/github/repo-size/fritzkmanurung/FluxSlider" alt="Repo Size">
+    <img src="https://img.shields.io/github/last-commit/fritzkmanurung/FluxSlider" alt="Last Commit">
+    <a href="https://github.com/fritzkmanurung/FluxSlider/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+    <a href="https://fluxslider.netlify.app/"><img src="https://img.shields.io/badge/Live_Demo-Online-brightgreen" alt="Live Demo"></a>
   </p>
 </div>
 
 <p align="center">
+  <a href="#-live-demo"><strong>Live Demo</strong></a> ·
   <a href="#-preview"><strong>Preview</strong></a> ·
   <a href="#-features"><strong>Features</strong></a> ·
   <a href="#-tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#-getting-started"><strong>Getting Started</strong></a> ·
-  <a href="#-usage"><strong>Usage</strong></a>
+  <a href="#-getting-started"><strong>Getting Started</strong></a>
 </p>
 
 ---
+
+## 🌐 Live Demo
+
+You can see the component live in your browser by visiting the deployment link:
+
+**https://fluxslider.netlify.app/**
 
 ## ✨ Preview
 
 Showcase your images in a captivating and interactive way with this modern and feature-packed slider component.
 
 <div align="center">
-  <img src="assets/preview.jpg" alt="Glimpse Slider Preview">
+  <img src="assets/image.png" alt="FluxSlider Preview">
 </div>
 
 ## 🌟 Key Features
@@ -56,14 +64,16 @@ This project is built from the ground up with core web technologies, ensuring it
 
 No complex installation or build process is required to use this component.
 
-1.  **Clone or Download the Repository**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR-USERNAME]/[YOUR-REPONAME].git
-    ```
-    Alternatively, you can download the project files directly.
-
-2.  **Open in Your Browser**
-    Navigate to the project folder and open the `index.html` file in any modern web browser to see the slider in action.
+1.  **Clone the Repository**
+    ````bash
+    git clone [https://github.com/fritzkmanurung/FluxSlider.git](https://github.com/fritzkmanurung/FluxSlider.git)
+    ````
+2.  **Navigate to the Directory**
+    ````bash
+    cd FluxSlider
+    ````
+3.  **Open in Your Browser**
+    Simply open the `index.html` file in any modern web browser to see the slider in action.
 
 ## 🛠️ Usage
 
